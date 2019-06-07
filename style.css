@@ -1,0 +1,39 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.donate-button {
+  background: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+}
+.social-img {
+  height: 90px;
+}
+.donate-button:active {
+  background: grey;
+}
+.button-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 500px;
+  max-width: 100%;
+  margin: 0px auto;
+}
+.socials-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 400px;
+  max-width: 100%;
+  margin: 40px auto;
+}
+#qr-code {
+  margin: 40px auto;
+  display: block;
+}
